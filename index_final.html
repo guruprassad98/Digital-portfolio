@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Guruprassad | Cloud Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-image: url('https://source.unsplash.com/1600x900/?technology,data-center');
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      color: #333;
+    }
+    .overlay {
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 2rem;
+    }
+    header {
+      text-align: center;
+      padding: 4rem 1rem;
+      background-color: rgba(255, 255, 255, 0.95);
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    header h1 {
+      font-size: 2.8rem;
+      font-weight: 600;
+      color: #2c3e50;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #6c757d;
+    }
+    .nav-link {
+      font-weight: 500;
+    }
+    .banner-img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 0.5rem;
+    }
+    section h2 {
+      color: #0d6efd;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #dee2e6;
+      padding-bottom: 0.3rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background-color: rgba(255, 255, 255, 0.9);
+      font-size: 0.9rem;
+      margin-top: 3rem;
+    }
+    .img-sample {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 0.5rem;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Guruprassad Balagurusamy</h1>
+    <p>Cloud & DevOps Enthusiast | Azure Certified</p>
+  </header>
+
+  <nav class="nav justify-content-center bg-light py-3 shadow-sm">
+    <a class="nav-link" href="#about">Profile</a>
+    <a class="nav-link" href="#resume">Resume</a>
+    <a class="nav-link" href="#experience">Experience & POC</a>
+    <a class="nav-link" href="#education">Education</a>
+  </nav>
+
+  <main class="container py-5 overlay">
+    <section id="about">
+      <img src="https://source.unsplash.com/featured/?cloud,technology" class="banner-img mb-4" alt="Cloud Banner">
+      <h2>About Me</h2>
+      <p>
+        I'm a dedicated cloud computing professional with 2+ years of DevOps and infrastructure automation experience. I specialize in cloud platforms like Azure, Microsoft 365, and AWS, and have worked extensively with CI/CD pipelines, containerization, infrastructure-as-code, and monitoring tools. I am certified in Microsoft Azure Fundamentals (AZ-900) and constantly exploring new cloud technologies to optimize IT operations.
+      </p>
+      <img src="https://source.unsplash.com/800x400/?devops,automation" alt="DevOps Automation" class="img-sample">
+    </section>
+
+    <section id="resume">
+      <h2>Resume</h2>
+      <p>You can view or download my resume here: <a href="Guruprassad_Balagurusamy_Resume.pdf" target="_blank">Download Resume (PDF)</a></p>
+      <img src="https://source.unsplash.com/800x400/?resume,documents" alt="Resume" class="img-sample">
+    </section>
+
+    <section id="experience">
+      <h2>Experience & POC</h2>
+      <div class="mb-4">
+        <h5>Azure DevOps Engineer — Zealogics Inc, India (Feb 2022 – Dec 2023)</h5>
+        <ul>
+          <li>Built and maintained robust CI/CD pipelines in Azure DevOps for 5+ applications.</li>
+          <li>Automated infrastructure provisioning using ARM templates, cutting setup time by 40%.</li>
+          <li>Integrated JFrog Artifactory, Fortify, and SonarQube to enhance security and code quality.</li>
+          <li>Collaborated with cross-regional teams for zero-downtime global deployments.</li>
+          <li>Created runbooks, dashboards, and documentation for deployment visibility and onboarding.</li>
+          <li>Reduced MTTR by 50% through automated alerting and root cause analysis.</li>
+        </ul>
+      </div>
+      <div>
+        <h5>Proof of Concepts</h5>
+        <ul>
+          <li>POC: Automated SharePoint to CMT data migration using PowerShell and CI pipelines.</li>
+          <li>POC: Containerized web app deployment using Docker and Azure Kubernetes Service (AKS).</li>
+        </ul>
+      </div>
+      <p>Explore my code on GitHub: <a href="https://github.com/guruprassad98/Digital-portfolio" target="_blank">github.com/guruprassad98</a></p>
+      <img src="https://source.unsplash.com/800x400/?azure,cloud-computing" alt="Azure Cloud" class="img-sample">
+    </section>
+
+    <section id="education">
+      <h2>Education & Certifications</h2>
+      <ul>
+        <li><strong>George Brown College</strong>, Toronto
+          <ul>
+            <li>PG Certificate in Cloud Computing Technologies (2025)</li>
+            <li>PG Certificate in Project Management (2024)</li>
+          </ul>
+        </li>
+        <li><strong>Anna University</strong>, India – Bachelor's in Mechanical Engineering (2020)</li>
+        <li><strong>Certifications:</strong> Microsoft Certified: Azure Fundamentals (AZ-900)</li>
+      </ul>
+      <img src="https://source.unsplash.com/800x400/?certification,graduation" alt="Certification" class="img-sample">
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Guruprassad Balagurusamy • Portfolio hosted on GitHub Pages
+  </footer>
+
+</body>
+</html>
